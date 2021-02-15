@@ -1,0 +1,20 @@
+.square {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000
+}
+
+/* Make the items display in grid format using flexbox */
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    background-image: url('images/mole.png');
+    background-size: cover;
+}
