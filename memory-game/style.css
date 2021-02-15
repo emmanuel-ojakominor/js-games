@@ -1,0 +1,8 @@
+/* Because the cards are 100x100 we will be able to make a 3x4 square grid. */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
