@@ -1,0 +1,29 @@
+
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width:140px ;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+}
+
+.player-one {
+    background-color: red !important;
+    border-radius: 10px;  /* Turn square to circle by setting border radius to 50% of height/width. */
+}
+
+.player-two {
+    background-color: blue !important;
+    border-radius: 10px;
+}
+
+div.taken {
+    background-color: transparent;
+}

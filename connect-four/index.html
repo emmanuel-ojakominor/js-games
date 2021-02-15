@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Connect Four</title>
+</head>
+<body>
+
+    <h1>Connect Four</h1>
+
+    <h2>How It Works</h2>
+    <p>Connect Four is a simple Grid-based Game in which the player has to drop a chip down into one of the columns to take your place. 
+        After you've taken your place, the second player will take their turn. The point of the game is to get four in a row, either column or row, but also diagonally. The first player to do this wins. 
+    </p>
+    <br>
+
+    <div><span style="font-weight: bold;">Current Player: </span> Player <span id="current-player">1</span></div>
+
+    <h3 style="color: red" id="result"></h3>
+
+    <div class="grid">
+        <!-- 
+            - Add enough divs in this grid container to make a 7x6 grid, which equals 42 divs.
+            - We also need to add 7 more divs to the bottom with the class name 'taken'. This will be the bottom of our grid. 
+        -->
+
+        <!-- (7x6 grid) 42 divs -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <!-- 7 taken divs -->
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+    </div>
+
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
